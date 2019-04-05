@@ -124,8 +124,82 @@ z-index: 0;
 
 
 
+.bg-modal {
+    
+ width: 100vw;
+	height: 576em;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+    justify-content: center;
+	align-items: center;
+	display: none;
+ 
+    
+
+}
 
 
+.close{
+	
+position: absolute;
+top: -0.7vw;
+right: 14px;
+font-size: 3vw;
+transform: rotate(45deg);
+cursor: pointer;
+}
+
+.close:hover{
+    
+opacity: 0.5;
+}
+
+.list-5-modal {
+    
+    
+width: 50vw;
+height: 35vw;
+background-color: #FFFFFF;
+border-radius: 0px;
+z-index: 99;
+margin-top:1em;
+display: block;
+position: fixed;
+top: 10em;
+background-image: url("../img/Lined-Paper.png");
+background-size: cover;
+
+}
+
+
+.vacation-image {
+    
+width: 13vw;
+padding-top: 8vw;
+padding-right: 4vw;
+float: right;
+
+}
+
+.vacation-title {
+    
+float: left;
+margin-top: 7.2vw;
+margin-left: 8vw;
+font-size: 2vw;
+}
+
+.vacation-paragraph {
+    
+float: left;
+width: 15em;
+margin-left: 8vw;
+font-size: 1.5vw;
+line-height: 2.7vw;
+
+    
+}
 
 .the-list{
     
