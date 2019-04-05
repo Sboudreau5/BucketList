@@ -62,6 +62,40 @@ padding: 0;
 }
 
 
+
+h3 {
+
+display: none;
+font-size: 3em;
+color: #000000;
+
+
+}
+
+
+
+span1:hover + .niagara-region {
+  display: block;
+
+}
+
+
+span2:hover + .montreal {
+  display: block;
+
+}
+
+span3:hover + .mexico {
+  display: block;
+
+}
+
+span4:hover + .dominican {
+  display: block;
+
+}
+
+
 a {
     
 text-decoration: none;
@@ -78,6 +112,41 @@ li {
     
 line-height: 1.5
 }
+
+
+.niagara-region{
+    
+position: absolute;
+top: 8.5em;
+left: 7em;
+
+}
+
+.montreal{
+    
+position: absolute;
+top: 8.4em;
+left: 15.3em;
+
+}
+
+.mexico{
+    
+position: absolute;
+top: 11em;
+left: 6.2em;
+
+}
+
+.dominican{
+    
+position: absolute;
+top: 11.4em;
+left: 14.9em;
+
+}
+
+
 
 
 .top-nav {
@@ -313,8 +382,8 @@ cursor: pointer;
     
 width: 4em;
 position: absolute;
-top: 35em;
-left: 39em;
+top: 37em;
+left: 37.5em;
 z-index: 99;
 }
 
