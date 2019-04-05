@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    
+width: 100vw;
+
+background-color: white;
+height: 500em;
+background-image:url("../img/Lined-Paper.png");
+font-family: 'Indie Flower', cursive;
+overflow: scroll;   
+    
+}
+
+
+
+header ul  {
+    
+list-style: none;
+position: absolute;
+text-align: center;
+display: inline-block;
+top:  -1em;
+margin-left: 17em;
+z-index: 99;
+
+}
+
+
+header li {
+ 
+
+display: inline-block;
+margin-right: 3em;
+z-index: 99;
+
+
+}
+
+h1 {
+    
+font-size: 1.5em;
+color: black;
+z-index: 99;
+
+
+}
+
+
+h2 {
+    
+font-size: 3em;
+margin-top: 0em;
+margin-bottom: 0.5em;
+padding: 0;
+
+
+
+
+
+}
+
+
+a {
+    
+text-decoration: none;
+}
+
+a:hover {
+    
+opacity: 0.5;
+cursor:pointer;
+}
+
+
+li {
+    
+line-height: 1.5
+}
+
+
+.top-nav {
+    
+position: absolute;
+height: 9em;
+min-width: 100vw;
+margin-top: 7em;
+margin-left: -1em;
+padding: 0.3em;
+z-index: 99;
+
+ 
+}
+
+
+.menu {
+z-index: 99;    
+ 
+
+}
+
+.menu-icon {
+ 
+position: fixed;
+margin-left: 3em; 
+display: inline;
+padding-right: 3em;
+margin-top: 1em;
+z-index: 99;
+
+
+}
+
+
+.background-image{
+top: 5em;    
+width: 100vw;
+height: auto;
+position: relative;
+z-index: 0;
+
+}
+
+
+
+
+
+
+.the-list{
+    
+position: relative;
+}
+
+.listitem1 {
+    
+position: absolute;
+top: 7.2em;
+left: 5.5em;
+
+}
+
+.listitem2 {
+    
+position: absolute;
+top: 9.1em;
+left: 5.5em;
+
+}
+
+.listitem3 {
+    
+position: absolute;
+top: 11em;
+left: 5.5em;
+
+}
+
+.listitem4 {
+    
+position: absolute;
+top: 12.82em;
+left: 5.5em;
+
+}
+
+.listitem5 {
+    
+position: absolute;
+top: 14.7em;
+left: 5.5em;
+text-decoration: line-through;
+
+}
+
+
+
+
+.listitem6 {
+    
+position: absolute;
+top: 16.6em;
+left: 5.5em;
+
+}
+
+
+.listitem7 {
+    
+position: absolute;
+top: 18.5em;
+left: 5.5em;
+
+}
+
+
+.listitem8 {
+    
+position: absolute;
+top: 22.2em;
+left: 5.5em;
+    
+
+
+}
+
+
+.listitem9 {
+    
+position: absolute;
+top: 20.35em;
+left: 5.5em;
+}
+
+.map {
+    
+width: 80em;
+position: absolute;
+top: 17em;
+left: 21em;
+}
+
+.x-1 {
+    
+width: 4em;
+position: absolute;
+top: 30em;
+left: 40em;
+z-index: 99;
+}
+
+.x-1:hover {
+    
+opacity: 0.5;
+cursor: pointer;
+}
+
+.x-2 {
+    
+width: 4em;
+position: absolute;
+top: 35em;
+left: 39em;
+z-index: 99;
+}
+
+.x-2:hover {
+    
+opacity: 0.5;
+cursor: pointer;
+}
+
+.x-3 {
+    
+width: 4em;
+position: absolute;
+top: 29em;
+left: 42em;
+z-index: 99;
+}
+
+.x-3:hover {
+    
+opacity: 0.5;
+cursor: pointer;
+}
+
+.x-4 {
+    
+width: 4em;
+position: absolute;
+top: 37.6em;
+left: 41em;
+z-index: 99;
+}
+
+.x-4:hover {
+    
+opacity: 0.5;
+cursor: pointer;
+}
